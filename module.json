@@ -1,0 +1,34 @@
+{
+    "name": "alignmenttracker",
+    "title": "Alignment Tracker",
+    "description": "This module allows for more in-depth control of character alignments.",
+    "author": "Lee 'Almighty_gir' Devonald",
+    "authors": [],
+    "flags": {},
+    "version": "this is auto replaced",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "scripts": [],
+    "esmodules": [
+        "alignmenttracker.js"
+    ],
+    "styles": [
+        "/css/alignmenttracker.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "packs": [],
+    "dependencies": [],
+    "socket": true,
+    "url": "This is auto replaced",
+    "manifest": "This is auto replaced",
+    "download": "This is auto replaced",
+    "protected": false,
+    "coreTranslation": false,
+    "library": false
+}
