@@ -8,9 +8,8 @@
     "version": "this is auto replaced",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
-    "scripts": [],
-    "esmodules": [
-        "alignmenttracker.js"
+    "scripts": [
+        "scripts/alignmenttracker.js"
     ],
     "styles": [
         "/css/alignmenttracker.css"
