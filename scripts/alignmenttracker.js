@@ -1,6 +1,6 @@
 console.log('AlignmentTracker | Im running!');
 
-class AlignmentForm extends FormApplication
+class AlignmentApplication extends Application
 {
     static get defaultOptions()
     {
@@ -17,6 +17,11 @@ class AlignmentForm extends FormApplication
         const mergedOptions = foundry.utils.mergeObject(defaults, overrides);
 
         return mergedOptions;
+    }
+
+    getData()
+    {
+        return {};
     }
 }
 
@@ -63,7 +68,7 @@ function overrideAlignmentSettingsButton(sheet, jq, data)
         console.log('AlignmentTracker | Alignment settings button clicked, opening new window instead!');
         event.stopImmediatePropagation();
         newAlignmentSettingsWindow(actor);
-        let alignmentForm = new AlignmentForm(actor).render(true, { actor });
+        let alignmentApplication = new AlignmentApplication(actor).render(true, { actor });
         // This will be called instead of any existing event listeners
     }, true);
 }
