@@ -12,7 +12,7 @@
         "scripts/alignmenttracker.js"
     ],
     "styles": [
-        "/css/alignmenttracker.css"
+        "css/alignmenttracker.css"
     ],
     "languages": [
         {
